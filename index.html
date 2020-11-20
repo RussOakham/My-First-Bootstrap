@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
+    <title>Whiskey Drop | Taste a new Whiskey every month</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+      integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+  </head>
+
+  <body>
+    <div class="container-fluid navalert-container">
+    
+      <!-- Sale Banner -->
+      <div class="container-fluid alert-container">
+        <div class="row d-none d-sm-block">
+          <div class="col-12">
+            <div class="alert alert-warning site-wide-alert">
+              <strong>Sale Now On!</strong> Get a 12 month subscription for a
+              price of 6! <a href="">See here for details!</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /Sale Banner -->
+
+      <!-- Navigation Menu -->
+      <nav class="navbar navbar-dark navbar-expand-sm">
+        <a href="/" class="navbar-brand">Whiskey Drop</a>
+
+        <button
+          class="navbar-toggler ml-auto"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav mr-auto">
+            <li class="active nav-item mr-2">
+              <a href="/" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item mr-2">
+              <a href="/about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Whiskeys
+              </a>
+              <div
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <a class="dropdown-item" href="#">Irish</a>
+                <a class="dropdown-item" href="#">Scotch</a>
+                <a class="dropdown-item" href="#">Japanese</a>
+                <a class="dropdown-item" href="#">American</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Rest of the World</a>
+              </div>
+            </li>
+            <li class="nav-item mr-2 d-block d-md-none">
+              <a href="/login" class="nav-link">Sign In/ Sign Up!</a>
+            </li>
+          </ul>
+        </div>
+        <div class="d-none d-md-block">
+          <p class="navbar-text my-auto mr-2">
+            <i>Great Whiskey Delivered To Your Door!</i>
+          </p>
+          <a href="/login" class="btn btn--cta btn--red">Sign In / Sign Up!</a>
+        </div>
+      </nav>
+      <!-- /Navigation Menu -->
+    </div>
+
+    <!-- Callout -->
+    <div class="container-fluid callout-container">
+      <div class="opaque-overlay">&nbsp;</div>
+      <div class="row">
+        <div class="col-12">
+          <section class="callout jumbotron text-center">
+            <h1 class="jumbotron-header">
+              The finest whiskeys delivered to your doorstep
+            </h1>
+            <hr class="block-divider block-divider-orange" />
+            <p class="lead">
+              Sign up today to start receiving the world's best whiskeys every
+              month. <s class="d-none d-sm-inline">£19.99</s>
+              <span class="d-inline d-sm-none"><br /></span>
+              <strong><mark>First one is free!</mark></strong>
+            </p>
+            <button
+              class="btn btn-lg btn--cta btn--red"
+              data-toggle="modal"
+              data-target="#signUpModal"
+            >
+              Sign Up!
+            </button>
+            <p class="text-muted">
+              <small
+                >You must be over 18 to sign up to our service, please drink
+                responsibly</small
+              >
+            </p>
+          </section>
+        </div>
+      </div>
+    </div>
+    <!-- /Callout -->
+
+    <!-- Quotes -->
+    <div class="container-wrapper">
+      <div class="container quotes-container content-container">
+        <section class="quotes">
+          <div class="row">
+            <div class="col-12 page-header">
+              <h2 class="text-uppercase">Quotes:</h2>
+              <hr class="block-divider block-divider-short" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 col-md-6">
+              <div class="media">
+                <div class="d-none d-sm-block">
+                  <img
+                    src="images/girl-image.png"
+                    class="rounded-circle mr-3"
+                    height="100"
+                    width="100"
+                    alt="Jane Doe"
+                  />
+                </div>
+                <div class="media-body">
+                  <blockquote class="blockquote">
+                    <p>
+                      I've been introduced to more than 10 great interational
+                      whiskeys I never knew about.
+                    </p>
+                    <p>- Jane Doe</p>
+                  </blockquote>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6">
+              <div class="media">
+                <div class="d-none d-sm-block">
+                  <img
+                    src="images/guy-image.png"
+                    class="rounded-circle mr-3"
+                    height="100"
+                    width="100"
+                    alt="John Doe"
+                  />
+                </div>
+                <div class="media-body">
+                  <blockquote class="blockquote">
+                    <p>I haven't been sober for months!</p>
+                    <p>- John Doe</p>
+                  </blockquote>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    <!-- /Quotes -->
+
+    <!-- Features -->
+    <div class="container-wrapper container-wrapper-red">
+      <div class="container features-container content-container">
+        <section class="features">
+          <div class="row">
+            <div class="col-12 page-header">
+              <h2 class="text-uppercase">Features:</h2>
+              <hr
+                class="block-divider block-divider-short block-divider-white"
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="feature">
+                <h3>
+                  <i class="fas fa-gift d-none d-sm-block"></i> Feature 1
+                  <span class="badge badge-success">NEW!</span>
+                </h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                  irure dolor in reprehenderit in voluptate velit esse cillum
+                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                  cupidatat non proident, sunt in culpa qui officia deserunt
+                  mollit anim id est laborum.
+                </p>
+                <p><a class="btn btn-sm btn-light" href="">Read More</a></p>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="feature">
+                <h3>
+                  <i class="fas fa-credit-card d-none d-sm-block"></i> Feature 2
+                </h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                  irure dolor in reprehenderit in voluptate velit esse cillum
+                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                  cupidatat non proident, sunt in culpa qui officia deserunt
+                  mollit anim id est laborum.
+                </p>
+                <p><a class="btn btn-sm btn-light" href="">Read More</a></p>
+              </div>
+            </div>
+            <div class="col-12 d-md-none d-lg-block col-lg-4">
+              <div class="feature">
+                <h3>
+                  <i class="fas fa-times-circle d-none d-sm-block"></i> Feature
+                  3
+                </h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                  irure dolor in reprehenderit in voluptate velit esse cillum
+                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                  cupidatat non proident, sunt in culpa qui officia deserunt
+                  mollit anim id est laborum.
+                </p>
+                <p><a class="btn btn-sm btn-light" href="">Read More</a></p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    <!-- /Features -->
+
+    <!-- Monthly Favourites -->
+    <div class="container monthlyFavourites-container content-container">
+      <section class="monthly-favourites">
+        <h2 class="text-uppercase page-header">Top 5 Whiskeys of the Month!</h2>
+        <hr class="block-divider block-divider-short" />
+        <table class="table table-striped">
+          <thead class="thead-dark">
+            <tr>
+              <th scope="col">No.</th>
+              <th scope="col">Name</th>
+              <th scope="col">Origin</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>The Westalian Peated</td>
+              <td>Germany</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Glory Leading</td>
+              <td>Scotland</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>Bunnahabhain</td>
+              <td>Scotland</td>
+            </tr>
+            <tr>
+              <th scope="row">4</th>
+              <td>Glenfiddich</td>
+              <td>Scotland</td>
+            </tr>
+            <tr>
+              <th scope="row">5</th>
+              <td>1820 Single Barrel Whiskey</td>
+              <td>US</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </div>
+    <!-- /Monthly Favourites -->
+  </body>
+
+  <!-- Modal -->
+  <div class="modal" tabindex="-1" id="signUpModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Modal title</h5>
+          <button
+            type="button"
+            class="close"
+            data-dismiss="modal"
+            aria-label="Close"
+          >
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email address</label>
+              <input
+                type="email"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                placeholder="Enter E-Mail"
+              />
+              <small id="emailHelp" class="form-text text-muted"
+                >We'll never share your email with anyone else.</small
+              >
+            </div>
+            <div class="form-group">
+              <label for="password">Password</label>
+              <input
+                type="password"
+                class="form-control"
+                id="password"
+                placeholder="Enter Password"
+              />
+            </div>
+            <div class="form-group">
+              <label for="repeatPassword">Repeat Password</label>
+              <input
+                type="password"
+                class="form-control"
+                id="repeatPassword"
+                placeholder="Repeat Password"
+              />
+            </div>
+
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /Modal -->
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+    integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://kit.fontawesome.com/9991dd88f2.js"
+    crossorigin="anonymous"
+  ></script>
+</html>
